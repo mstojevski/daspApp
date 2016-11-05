@@ -1,0 +1,27 @@
+.logo {
+	width: 100px;
+}
+.navbar-inverse {
+	z-index: 1;
+	display: none;
+	margin-bottom: 0;
+	border: none;
+	background: $color-navigation;
+}
+.navbar-inverse ul li a {
+	font-size: 88.88%;
+	margin-top: 3px;
+}
+.navbar-toggle {
+	margin-top: 14px;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: $color-white;
+
+	&:hover {
+		color: $color-greyhover;
+	}
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+	background-color: $color-redusers;
+}

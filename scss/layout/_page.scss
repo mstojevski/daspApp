@@ -1,0 +1,70 @@
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(127, 127, 127, .2), rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../images/app1.jpg') center center no-repeat;
+    background-size: cover;
+
+    .main-img {
+        position: absolute;
+        @include vcenter;
+        left: 90%;
+        width: 230px;
+
+        &.right {
+            left: 60%;
+        }
+    }
+    .main-logo {
+        margin-bottom: 25px;
+    }
+}
+.main-holder {
+    .main-downloadButton {
+        width: 150px;
+
+        &:hover {
+            transition: 0.1s;
+            opacity: .5;
+        }
+    }
+}
+.split {
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    .main-holder {
+        @include vcenter;
+    }
+}
+
+/*==================================
+=            VIDEO TOUR            =
+==================================*/
+
+.features {
+    text-align:center;
+    img {
+        margin-top:100px;
+        width:250px;
+        
+    }
+}
+.features-list {
+    text-align:left;
+    padding:0;
+    list-style: none;
+    text-align:center;
+    
+}
+
+
+
+
+
+
+
+
+
+
