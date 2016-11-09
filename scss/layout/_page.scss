@@ -8,11 +8,13 @@
     .main-img {
         position: absolute;
         @include vcenter;
-        left: 90%;
         width: 230px;
 
         &.right {
             left: 60%;
+        }
+        &.left {
+            left: 90%;
         }
     }
     .main-logo {
@@ -38,30 +40,52 @@
         @include vcenter;
     }
 }
+/*=============================================
+=           Steps         =
+=============================================*/
+.steps {
+    background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../images/test.jpeg') center center no-repeat;
+    background-size: cover;
+    height:100vh;
+    text-align:center;
+
+}
+.steps-img {
+    width:230px;
+    margin-top:50px;
+}
+.steps-icons {
+    width:80px;
+    margin-right:20px;
+}
+.steps-list {
+    margin:0;
+    padding:0;
+    list-style: none;
+    margin-top:55px;
+    li {
+        padding-top:50px;
+        text-align:left;
+        color:$color-white;
+
+    }
+
+}
 
 /*==================================
 =            VIDEO TOUR            =
 ==================================*/
 
-.features {
+.how-it-works {
+    background: linear-gradient(to bottom, rgba(0,0,0,.8), rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../images/test1.jpg') center center no-repeat;
+    background-size: cover;
+    height:100vh;
     text-align:center;
-    img {
-        margin-top:100px;
-        width:250px;
-        
+    p {
+        color:#999;
     }
-}
-.features-list {
-    text-align:left;
-    padding:0;
-    list-style: none;
-    text-align:center;
     
 }
-
-
-
-
 
 
 

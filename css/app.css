@@ -5289,10 +5289,13 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 320%;
   color: #fff;
-  letter-spacing: 3px; }
+  letter-spacing: 3px;
+  font-weight: 300; }
 
 h2 {
-  font-size: 280%; }
+  font-size: 280%;
+  color: #fff;
+  font-weight: 700; }
 
 section {
   padding: 80px; }
@@ -5310,10 +5313,11 @@ section {
     top: 50%;
     -webkit-transform: translateY(50%);
             transform: translateY(50%);
-    left: 90%;
     width: 230px; }
     .main .main-img.right {
       left: 60%; }
+    .main .main-img.left {
+      left: 90%; }
   .main .main-logo {
     margin-bottom: 25px; }
 
@@ -5334,20 +5338,45 @@ section {
     -webkit-transform: translateY(50%);
             transform: translateY(50%); }
 
+/*=============================================
+=           Steps         =
+=============================================*/
+.steps {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/test.jpeg") center center no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/test.jpeg") center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center; }
+
+.steps-img {
+  width: 230px;
+  margin-top: 50px; }
+
+.steps-icons {
+  width: 80px;
+  margin-right: 20px; }
+
+.steps-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 55px; }
+  .steps-list li {
+    padding-top: 50px;
+    text-align: left;
+    color: #fff; }
+
 /*==================================
 =            VIDEO TOUR            =
 ==================================*/
-.features {
+.how-it-works {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/test1.jpg") center center no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/test1.jpg") center center no-repeat;
+  background-size: cover;
+  height: 100vh;
   text-align: center; }
-  .features img {
-    margin-top: 100px;
-    width: 250px; }
-
-.features-list {
-  text-align: left;
-  padding: 0;
-  list-style: none;
-  text-align: center; }
+  .how-it-works p {
+    color: #999; }
 
 .logo {
   width: 100px; }
